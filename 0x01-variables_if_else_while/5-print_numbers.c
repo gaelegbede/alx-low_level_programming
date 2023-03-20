@@ -9,7 +9,7 @@
 int main(void)
 {
 	int w;
-
+/*for printing lowercase alphabets*/
 	for (w = 0; w < 10; w++)
 
 {
