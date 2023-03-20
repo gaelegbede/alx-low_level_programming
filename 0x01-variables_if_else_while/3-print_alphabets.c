@@ -7,16 +7,14 @@
  * Return: Always (0) Success
  */
 
-int main()
-
+int main(void)
 {
-
-      char ch, i;
+	char ch, i;
       /*print lowercase letters*/
-      for (i = 'a'; i <= 'z'; i++)
-      {
+	for(i = 'a'; i <= 'z'; i++)
+	{
 	      putchar (i);
-      }
+	}
       /* print uppercase letters */
 
         for(ch = 'A'; ch <= 'Z' ; ch++)
