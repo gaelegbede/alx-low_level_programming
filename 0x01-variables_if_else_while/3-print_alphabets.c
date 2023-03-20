@@ -10,17 +10,17 @@
 int main(void)
 {
 	char ch, i;
-      /*print lowercase letters*/
- 		for (i = 'a'; i <= 'z'; i++)
+	/*print lowercase letters*/
+	for (i = 'a'; i <= 'z'; i++)
 	{
-	      putchar (i);
+		putchar (i);
 	}
-      /* print uppercase letters */
+	/* print uppercase letters */
 	for (ch = 'A'; ch <= 'Z' ; ch++)
 	{	putchar(ch);
 	}
 	{
 	putchar('\n');
-}
+	}
 return (0);
 }
