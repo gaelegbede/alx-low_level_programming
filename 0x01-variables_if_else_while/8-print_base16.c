@@ -3,19 +3,19 @@
 #include <stdlib.h>
 
 /**
- *
- *
+ * main - Entry point
+ *Return: Always 0 success
  */
 int main(void)
 {
 	int c;
 	char i;
 
-	for (c = '1'; c <= '9'; c++)
+	for (c = '0'; c <= '9'; c++)
 {
 	putchar (c);
 }
-	for(i = 'a'; i <= 'f'; ++i)
+	for (i = 'a'; i <= 'f'; ++i)
 {
 	putchar(i);
 }
